@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    background-color: #eee;
+}
+
+form {
+    background-color: #667;
+    color: #fff;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+.formElements {
+    background-color: #eee;
+    color: #000;
+    border-radius: 4px;
+    font-family: 'Prompt', sans-serif;
+}
+
+#coinInfo {
+    background-color: #667;
+    color: #fff;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+#change {
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 4px;
+    width: 10%;
+    position: relative;
+    left: 45%;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    display: none;
+}

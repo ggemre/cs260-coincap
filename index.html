@@ -2,27 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Bitcoin</title>
+  <title>Crypto Search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1>Bitcoin</h1>
+  <h1>Crypto Search</h1>
   
   <form>
-    <select id="coinInput" name="coin">
+    <select id="coinInput" name="coin" class="formElements">
         <option value="bitcoin">Bitcoin</option>
         <option value="tether">Tether</option>
         <option value="ethereum">Ethereum</option>
         <option value="litecoin">Litecoin</option>
         <option value="dogecoin">Dogecoin</option>
         <option value="basic-attention-token">Basic Attention Token</option>
-    </select>
-    <input id="coinSubmit" type="submit" value="Submit"></input>
+    </select><br><br>
+    <input id="coinSubmit" type="submit" value="Submit" class="formElements"></input>
   </form>
     
-  <div id="price"></div>
-  <div id="change"></div>
-  <div id="info"></div>
+  <div id="coinInfo">
+    <div id="price">Press "submit" for information on the selected coin.</div>
+    <div id="change"></div>
+    <div id="info"></div>
+  </div>
 
   <script text="type/javascript" src="./script.js"></script>
 </body>
