@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <title>Bitcoin</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <h1>Bitcoin</h1>
+  
+  <form>
+    <select id="coinInput" name="coin">
+        <option value="bitcoin">Bitcoin</option>
+        <option value="tether">Tether</option>
+        <option value="ethereum">Ethereum</option>
+        <option value="litecoin">Litecoin</option>
+        <option value="dogecoin">Dogecoin</option>
+        <option value="basic-attention-token">Basic Attention Token</option>
+    </select>
+    <input id="coinSubmit" type="submit" value="Submit"></input>
+  </form>
+    
+  <div id="price"></div>
+  <div id="change"></div>
+  <div id="info"></div>
 
-
+  <script text="type/javascript" src="./script.js"></script>
 </body>
 </html>
