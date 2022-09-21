@@ -12,22 +12,19 @@
   <h1>Crypto Search</h1>
   
   <form>
-    <select id="coinInput" name="coin" class="formElements">
-        <option value="bitcoin">Bitcoin</option>
-        <option value="tether">Tether</option>
-        <option value="ethereum">Ethereum</option>
-        <option value="litecoin">Litecoin</option>
-        <option value="dogecoin">Dogecoin</option>
-        <option value="basic-attention-token">Basic Attention Token</option>
-    </select><br><br>
+    <input type="checkbox" id="bitcoin" class="check"><label for="bitcoin">Bitcoin</label><br>
+    <input type="checkbox" id="tether" class="check"><label for="tether">Tether</label><br>
+    <input type="checkbox" id="ethereum" class="check"><label for="ethereum">Ethereum</label><br>
+    <input type="checkbox" id="litecoin" class="check"><label for="litecoin">Litecoin</label><br>
+    <input type="checkbox" id="dogecoin" class="check"><label for="dogecoin">Dogecoin</label><br>
+    <input type="checkbox" id="basic-attention-token" class="check"><label for="basic-attention-token">Basic Attention Token</label><br><br>
+    
     <input id="coinSubmit" type="submit" value="Submit" class="formElements"></input>
   </form>
-    
-  <div id="coinInfo">
-    <div id="price">Press "submit" for information on the selected coin.</div>
-    <div id="change"></div>
-    <div id="info"></div>
-  </div>
+  
+  <div id="coinList"></div>
+  
+  <footer>My GitHub repository: <a href="https://github.com/ggemre/cs260-coincap">cs260-coincap</a>.</footer>
 
   <script text="type/javascript" src="./script.js"></script>
 </body>
