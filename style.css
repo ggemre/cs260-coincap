@@ -10,6 +10,8 @@ form {
     padding: 25px;
     margin: 25px;
     border-radius: 25px;
+    border-bottom: 6px solid #334;
+    border-right: 6px solid #334;
 }
 
 .formElements {
@@ -25,6 +27,8 @@ form {
     padding: 25px;
     margin: 25px;
     border-radius: 25px;
+    border-bottom: 6px solid #334;
+    border-right: 6px solid #334;
 }
 
 #change {
